@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/icon",
+      "Name": "Toggle power",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle the power of your Govee light",
+      "UUID": "com.mongeon.govee.togglepower",
+      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+    }
+  ],
+  "Author": "Gabriel Mongeon",
+  "Name": "Govee remote control",
+  "Description": "This plugin allow to control your Govee light via Bluetooth",
+  "Icon": "Images/pluginIcon",
+  "URL": "http://www.gabrielmongeon.ca",
+  "Version": "1.0",
+  "CodePath": "com.mongeon.govee",
+  "Category": "Govee",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.9"
+  }
+}
